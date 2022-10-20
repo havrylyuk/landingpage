@@ -1,0 +1,237 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+
+}
+body{
+	font-family: Verdana,sans-serif;
+	font-size: 20px;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+h1 {
+  color: #9db0d1;
+  font-size: 60px;
+}
+
+.title{
+	color: #9DB0D1
+	font-family: 'Arapey', serif;
+	font-size: 60px;
+	line-height: 66px;	
+	text-align: center;
+	margin: 100px 0 50px 0;
+}
+.sub-title{
+	line-height: 24px;
+	text-align: center;	
+	width: 1024px;
+	margin: 0 auto 50px auto;
+
+}
+.btn{
+	background: #EBAC87;
+    border-radius: 10px;
+    padding: 24px 50px;
+    color: #FFFFFF;
+    font-size: 30px;
+    line-height: 32px;	
+    text-transform: uppercase;
+    border: 2px solid #FFFFFF;
+    cursor: pointer;
+}
+.btn-center{
+	margin: 0 auto 50px auto;
+    display: block; 
+
+}
+.btn:hover{
+	background: #FFFFFF;
+	color: #EBAC87;
+	border: 2px solid #EBAC87;
+}
+.navigation{
+	display: flex;
+	justify-content: center;
+	margin: 0 0 48px 0;
+}
+.link{
+	color: black;
+	line-height: 24px;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	margin: 0 25px 0 25px;
+	}
+.icon-check{
+	background: #9DB0D1;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	padding: 17px 15px 18px 15px;
+	display: block;
+	margin: 0 15px 0 0;
+	}
+.link:hover .icon-check{
+		background: none;
+	}
+.link:hover .icon-check svg *{
+	  fill: #9DB0D1;
+	}
+	.caption{
+	  font-family: 'Arapey', serif;
+	  text-align: center;
+	  font-size: 40px;
+	  line-height: 44px;
+	  padding: 252px 0 50px 0;
+	  background: url(../img/bg-cioud.png) top / auto 200px repeat-x ,
+	 	 linear-gradient(180deg, rgba(135, 198, 235, 0) 8.33%, #87C6EB 93.06%);
+
+	}
+.box{
+	width: 350px;
+	background: #FFFFFF;
+	border-radius: 10px;
+	display: block;
+	padding: 20px;
+}	
+.number{
+	width: 60px;
+	height: 60px;
+	background: #EBAC87;
+	border-radius: 50%;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	line-height: 60px;
+	margin: 0 0 10px 0;
+}
+.medium{
+	background: rgba(235, 172, 135, 0.6)
+}
+.light{
+	background: rgba(235, 172, 135, 0.4);
+}	
+.image{
+	background: #EBAC87;
+	margin: 0 0 20px;
+}
+.image img{
+	width: 100%;
+	display: block;
+}
+.box-text strong{
+font-weight: bold;
+}
+.container{
+	display: flex;
+	width: 1200px;
+	margin: 0 auto 35px auto;
+	justify-content: space-between;
+}
+.holder{
+	background: #87C6EB;
+}
+.container-botton{
+	background: url(../img/photo04.png) bottom right/ auto 475px no-repeat;
+	min-height: 475px;
+	width: 1200px;
+	margin: 0 auto;
+	padding: 40px 0 0 0;
+}
+.heading{
+	width: 600px;
+	color: #FFFFFF;
+	font-family: 'Arapey', serif;
+	font-size: 40px;
+	line-height: 44px;
+	margin: 0 0 50px 0;	
+}
+.container-botton .box-text{
+	width: 580px;
+}
+.text-light{
+	color: #000000;
+	text-decoration: underline;
+}
+.row{
+	width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 50px 0 50px 0;
+}
+.btn-white{
+	background: #FFFFFF;
+	color: #EBAC87;
+	border: 2px solid transparent;
+}
+.btn-white:hover {
+	background: #EBAC87;
+	color: #FFFFFF; 
+	border: 2px solid #FFFFFF;
+} 
+.faq{
+	width: 80px;
+	height: 80px;
+	background: #EBAC87;
+	border-radius: 50%;
+	color: white;
+	font-size: 60px;
+	text-align: center;
+	line-height: 80px;
+	margin: 0 0 10px 0;
+}
+.social a{
+	text-decoration: none;
+	margin: 0 0 0 32px;
+}
